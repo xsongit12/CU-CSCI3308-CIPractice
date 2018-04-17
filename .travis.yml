@@ -3,4 +3,4 @@ language: c
 compiler: gcc
 script: 
 -  make dep
--  make && make test
+- ./configure && make && make test
